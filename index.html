@@ -1,83 +1,114 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Satya's Site</title>
-        
-        <link rel="stylesheet" href="./styles.css">
-        <script src="javascript.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-
-        <nav>
-            <table id="mainMenu" class="center">
-                    <tr>
-                        <td><a href="../aboutme.html" class="menubutton">About Me</a></td>
-                        <td><a href="../interest.html" class="menubutton">Interests</a></td>
-                        <td><a href="../favourites.html" class="menubutton">Favourites</a></td>
-                        <td><a href="../contact.html" class="menubutton">Contact</a></td>
-                    </tr>
-            </table>       
-        </nav>
-    </head>
-
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Satyaseelan Portfolio</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="script.js"></script>
+  </head>
     <body>
-        
-        <div id="pageIntro">
-            <h1>
-                <img src="./images/name_smurfs.png">
-            </h1>
-        </div>
+	  
+        <div class="container">
+	  
+		<!--────────────────Header───────────────-->
+	<header>
+		<!-- <a class="logo" href="#home">
+              <img src="https://newsletter-images--timmy-i-chen.repl.co/logo-light.png" alt="repl logo" />
+		</a> -->
+		<nav>	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link active" href="#home">Home</a></li>
+			<li><a class="nav-link" href="#projects">Projects</a></li>
+			<li><a class="nav-link" href="#contact">Contact Me</a></li>
+		 </ul>
+			
+			<div class="hamburger">
+				<div class="line1"></div>
+            <div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!--─────────────────Home────────────────-->
+	  <div id="home">
+		 <div class="filter"></div>
+		 <section class="intro">
+		  <h3>Satyaseelan.<hr></h3>
+		  <p>Junior Web Developer & Graphic Designer from Sydney, Australia.</p>
+		  <p>I've been honing my skills working with exciting digital agencies for 4 years in Malaysia and Australia.</p>
+          <p>Check out some of my projects below.</p>
+			  
+		  <!--────social media links─────-->
+			 
+		  <div class="social-media">
+			  <a href="https://www.github.com/vsatyaseelan"><i class='fab fa-github'></i></a>
+			  <a href="https://www.linkedin.com/in/satyaseelan"><i class='fab fa-linkedin-in'></i></a>
+		    </div>
+			 
+		 </section> 
+	  </div>  
+		
+	  <!--───────────────Projects───────────────-->
+	  <div id="projects"> 
+		 <h3>My Projects.<hr></h3>
+		  <p>Here are some of my projects, you may like.</p>
+		  <div class="work-box">
+		  <div class="work">
+		<!--───────────────card───────────────-->
+			<div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80">
+			    <a href="" target="_blank"> <!--Link to project-->
+				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
+            </div>
+			<div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80">
+				<a href="" target="_blank"> <!--Link to project-->
+				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
+            </div>
+            <div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+				<a href="" target="_blank"> <!--Link to project-->
+				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
+            </div>
+            <div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1517842645767-c639042777db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+				<a href="" target="_blank"> <!--Link to project-->
+				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
+            </div> 
+			<div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=781&q=80">
+				<a href="" target="_blank"> <!--Link to project-->
+				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
+            </div>
+			<div class="card">
+			    <img class="work-img" src="https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+				<a href="" target="_blank"> <!--Link to project-->
+				<div class="work-content">Lorem ipsum dolor sit amet consectetur.</div></a>
+            </div> 	  
+		  </div>
+		  </div>
+	  </div>
+		 
+		<!--──────────────Contact────────────────-->
+	  <div id="contact">
+		  <!--────social media links─────-->
+		   <h3>Contact.<hr></h3>
+		   <p>Feel free to contact me on my social media.</p>
+		    <div class="social-media">
+			  <a href="https://www.github.com/vsatyaseelan" target="_blank"><i class='fab fa-github'></i></a>
+			  <a href="https://www.linkedin.com/in/satyaseelan" target="_blank"><i class='fab fa-linkedin-in'></i></a>
+		    </div>
+		  </div>
 
-        <center>
-        <h2>About Me</h2>
-
-            <p>I am a Junior Web Developer living in Sydney</p>
-
-        <div>
-            <h2>Interests</h2>
-
-            <a class="whitebutton">Travel</a>
-            <a class="whitebutton">Cooking</a>
-            <a class="whitebutton">Creative Arts</a>
-            <a class="whitebutton">Music</a>
-
-            <!-- <ul style="list-style-type: none;">
-                <li>Travel</li>
-                <li>Cooking</li>
-                <li>Creative Arts</li>
-                <li>Music</li>
-            </ul> -->
-        </div>
-        
-        <h2>Favourite Books</h2>
-
-            <a href="https://www.amazon.com/Secret-Daily-Teachings-Rhonda-Byrne/dp/1439130833/ref=sr_1_3?crid=2O1VSMX1W6MGP&dchild=1&keywords=the+secret&qid=1594034660&s=books&sprefix=the+secret%2Caps%2C421&sr=1-3">
-                <img height="250" src="https://images-na.ssl-images-amazon.com/images/I/51XruK9WkYL._SX392_BO1,204,203,200_.jpg" alt="The Secret Book Cover"></a>
-
-            <a href="https://www.amazon.com/Elon-Musk-Ashlee-Vance-audiobook/dp/B00UVY52JO/ref=sr_1_1?crid=1EOS4YN1H2J0P&dchild=1&keywords=elon+musk&qid=1594035019&s=books&sprefix=elon+mus%2Cstripbooks-intl-ship%2C374&sr=1-1">
-                <img height="250" src="https://m.media-amazon.com/images/I/91G00NOgKYL._AC_UY436_FMwebp_QL65_.jpg" alt="Elon Musk Book Cover"></a>
-
-            <a href="https://www.amazon.com/Steve-Jobs-Biography-Isaacson-2011-11-04/dp/B01K15BMIM/ref=sr_1_2?crid=JEX0WTD7I67V&dchild=1&keywords=steve+jobs&qid=1594035100&s=books&sprefix=steve+jobs%2Cstripbooks-intl-ship%2C375&sr=1-2">
-                <img height="250" src="https://images-na.ssl-images-amazon.com/images/I/41EQKL0jMhL._SX325_BO1,204,203,200_.jpg" alt="Steve Jobs Book Cover"></a>
-                
-        <h2>Favourite TV Shows and Movies</h2>
-
-            <a href="https://www.imdb.com/title/tt2741602/?ref_=nv_sr_srsg_0">
-                 <img height="250" src="https://m.media-amazon.com/images/M/MV5BZDU1OGI3NWItZTliOS00OWYxLTliNDktYTFjODcxNmE1NTNmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_.jpg" alt="Blacklist Cover"></a>
-
-           <a href="https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0">
-                <img height="250" src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UY1200_CR90,0,630,1200_AL_.jpg" alt="Avengers Cover"></a>
-                
-            <a href="https://www.imdb.com/title/tt6468322/?ref_=nv_sr_srsg_0">
-                <img height="250" src="https://m.media-amazon.com/images/M/MV5BZDcxOGI0MDYtNTc5NS00NDUzLWFkOTItNDIxZjI0OTllNTljXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg" alt="Money Heist Cover"></a>
-        
-            <h2>Additional Links</h2>    
-                <a href="https://www.buzzfeed.com" class="menubutton">Buzz Feed</a>
-                <a href="https://edition.cnn.com/business/tech" class="menubutton">CNN Tech</a>
-        </center>
-            </body>
-    <footer>
-        <center>
-        <h3>Thank you for visiting this page.</h3>
-        </center>
-    </footer>
+	</main>
+	  <footer class="copyright"><a href="https://www.satyaseelan.com" target="_blank">© 2020 | www.satyaseelan.com</a>
+     </footer>
+	  
+  </div>
+  </body>
 </html>

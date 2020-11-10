@@ -198,7 +198,7 @@ a.nav-link{
 	width: 200px;
 	height:250px;
 	border-radius:12px;
-    background:var(--main-decor-color);
+    background: linear-gradient(50deg, #5102b9 0, #00b7ff 100%);
 }
 
 .card img{
@@ -209,7 +209,7 @@ a.nav-link{
 
 .card .work-content{
 	text-align: center;
-	padding: 10px 5px;
+	padding: 25px 5px;
 	font-size: 1rem;
 	color: var(--main-fonts-color);
 	font-family: var(--main-font-family);
@@ -221,11 +221,12 @@ a.nav-link{
 }
 
 .card .work-content:hover{
-    color:#202020;
+    color:#ffffff;
 }
 
 .card:hover{
 	box-shadow: 0 0 1.5rem gray;
+	background: #000000 ;
 }
 
 /*──────────────────
